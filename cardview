@@ -1,0 +1,16 @@
+   <androidx.cardview.widget.CardView
+            android:id="@+id/mainpage"
+            android:text="Main Page"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="54dp"
+            android:visibility="@{viewState.emptyViewVisibility}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+android:textSize="10sp"
+
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true"
+            />
